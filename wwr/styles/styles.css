@@ -50,13 +50,13 @@ footer{
 }
 
 nav a {
-    background-color: ;
+    background-color: #c4cfff;
     color: #1e1014;
     text-align: center;
     text-decoration: none;
 }    
 nav a:hover {
-    background-color: ;
+    background-color: #c4cfff;
     color: #1e1014;
 }    
 .home-title {
