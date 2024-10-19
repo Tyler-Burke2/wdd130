@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Gowun+Batang');
+  
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -29,6 +31,10 @@ main section{
 
 body {
     background-color: #daddd8; 
+    /* font-family: ; */
+    font-size: 22px;
+    margin: 0;
+    padding 0;
 }
 header {
     background-color: #c4cfff;
@@ -38,12 +44,15 @@ nav a:hover {
 }
 .book, .join {
     background-color: #b4869f;
+    font-size: 18px;
 }
 #background {
     background-color: #b4869f;
 }
 .msg{
     background-color: #c4cfff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #c4cfff;
@@ -54,6 +63,7 @@ nav a {
     color: #1e1014;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }    
 nav a:hover {
     background-color: #c4cfff;
@@ -62,6 +72,8 @@ nav a:hover {
 .home-title {
     background-color: #c4cfff;
     color: #1e1014;
+    font-size: 2em;
+    margin-top: 10px;
 }    
 h4 {
     background-color: #c4cfff;
@@ -72,6 +84,9 @@ h4 {
     color: #1e1014;
     text-align: center;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }    
 .book:hover, .join:hover {
     background-color: #b4869f;
@@ -84,10 +99,14 @@ h4 {
 .msg p {
     background-color: #c4cfff;
     color: #1e1014;
+    font-size: .8em;
+    padding-bottom: 15px;
 }    
 footer {
     background-color: #c4cfff;
     color: #1e1014;
+    padding: 25px 50px;
+    margin-top: 200px;
 }    
 footer a {
     background-color: #c4cfff;
@@ -105,6 +124,7 @@ footer a:hover {
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -115,6 +135,28 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+
+.card-img{
+    border: 10px black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 

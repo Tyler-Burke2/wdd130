@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(114, 114, 114);
+}
+
+.circles{
+    height: 100%;
+}
+
+.desk{
+    height: 200px;
+    border: 5px rgb(54, 54, 54);
+    border-radius: 100px;
+    margin: 100px;
+}
+
+.graphic{
+    height: 200px;
+    border: 5px rgb(54, 54, 54);
+    margin: 100px;
+    border-radius: 100px;
+}
+
+.person{
+    height: 200px;
+    border: 5px red;
+    border-radius: 100px;
+    margin: 100px;
+}
