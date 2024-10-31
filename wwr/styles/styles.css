@@ -1,6 +1,6 @@
 /* Body and General Styles */
 body {
-    background-color: gray;
+    background-color: daddd8;
     color: black;
     margin: 0;
     padding: 0;
@@ -10,12 +10,12 @@ body {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #E3E4E0;
+    background-color: #daddd8;
 }
 
 /* Header Section */
 header {
-    background-color: silver;
+    background-color: #c4cfff;
     height: 180px;
     display: grid;
     grid-template-columns: 150px auto;
@@ -35,7 +35,7 @@ header {
 }
 
 nav a {
-    background-color: silver;
+    background-color: #c4cfff;
     color: white;
     text-decoration: none;
     padding: 30px;
@@ -46,7 +46,7 @@ nav a {
 
 nav a:hover {
     text-align: center;
-    color: #415A77;
+    color: #c4cfff;
 }
 
 /* Hero Section */
