@@ -246,6 +246,12 @@ nav {
     margin-top: 3em;
 }
 
+.main {
+    grid-template-columns: 1fr, 1fr,;
+}
+.riverimg {
+    grid-column: 1/2;
+}
 
 /* Form Styles */
 
