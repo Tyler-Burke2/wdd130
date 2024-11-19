@@ -246,11 +246,26 @@ nav {
     margin-top: 3em;
 }
 
-.main {
-    grid-template-columns: 1fr, 1fr,;
-}
 .riverimg {
-    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+}
+.snakeriver {
+    display: flex;
+    align-items: center;
+}
+.henry {
+    display: flex;
+    align-items: center;
+}
+.teton {
+    display: flex;
+    align-items: center;
+}
+.warmtxt {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* Form Styles */
