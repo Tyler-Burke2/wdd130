@@ -245,27 +245,14 @@ nav {
 .moveDown {
     margin-top: 3em;
 }
-
-.riverimg {
+ 
+.main img {
     display: flex;
     align-items: center;
-}
-.snakeriver {
-    display: flex;
-    align-items: center;
-}
-.henry {
-    display: flex;
-    align-items: center;
-}
-.teton {
-    display: flex;
-    align-items: center;
+    padding: 50px;
 }
 .warmtxt {
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
+    float: right;
 }
 
 /* Form Styles */
