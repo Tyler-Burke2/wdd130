@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="styles/week12.css">
+</head>
+
+<body>
+    <h1>How to get a girlfriend</h1>
+    <button class="accordion">1. Be Yourself and Build Confidence</button>
+    <div class="panel">
+    <p>The first step in attracting a girlfriend is to be authentic. Trying to be someone you're not will only lead to disappointment in the long run. Focus on building your self-confidence through positive habits, such as exercising, learning new skills, and pursuing hobbies that make you happy. Confidence is attractive, and it will naturally draw people to you.</p>
+    </div>
+
+    <button class="accordion">2. Make Meaningful Connections</button>
+    <div class="panel">
+    <p>Building a meaningful relationship starts with getting to know people on a deeper level. Take the time to engage in thoughtful conversations and be genuinely interested in her thoughts, feelings, and experiences. Show kindness, empathy, and respect, which will help establish trust and emotional connection. Avoid rushing things and let the relationship develop at a natural pace.</p>
+    </div>
+
+    <button class="accordion">3. Be Patient and Respectful</button>
+    <div class="panel">
+    <p>Building a strong relationship takes time. Don’t expect immediate results or try to rush the process. It's important to give space for the relationship to grow and for both people to develop feelings at their own pace. Respect her boundaries, communicate openly, and always be patient. When you take your time and show genuine care, a meaningful relationship can flourish.</p>
+    </div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>
