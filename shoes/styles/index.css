@@ -1,0 +1,45 @@
+nav {
+    background-color: #EFFFFA;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav a:hover {
+    text-align: center;
+    color: #8A4FFF;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+#hero {
+    width: 100%;
+}
+
+.images {
+    width: 50%;
+    display: grid;
+    grid: 1fr, 1fr;
+}
+
+.motto {
+    text-align: center;
+}
+
+footer {
+    background-color: #EFFFFA;
+    color: #778DA9;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
