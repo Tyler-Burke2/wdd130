@@ -52,7 +52,20 @@ nav a:hover {
 }
 
 .images {
-    width: 50%;
+    display: flex; /* Use Flexbox to arrange the images side by side */
+    gap: 20px; /* Optional: Adds space between images */
+    justify-content: center; /* Optional: Centers the images horizontally */
+    align-items: center; /* Optional: Vertically centers images */
+    margin: 20px;
+}
+
+.images img {
+    width: 500px; /* Fixed width for all images */
+    height: 400px;
+}
+
+.images text {
+    text-align: center;
 }
 
 .motto {
@@ -70,4 +83,8 @@ footer {
     align-items: center;
     justify-content: space-around;
     display: flex;
+}
+
+main {
+    background-color: #EFFFFA;
 }
