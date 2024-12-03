@@ -57,21 +57,20 @@ nav a:hover {
     justify-content: center; /* Optional: Centers the images horizontally */
     align-items: center; /* Optional: Vertically centers images */
     margin: 20px;
+    text-align: center;
 }
 
 .images img {
     width: 500px; /* Fixed width for all images */
     height: 400px;
-}
-
-.images text {
-    text-align: center;
+    background-color: silver;
 }
 
 .motto {
     text-align: center;
     font-size: 40px;
     font-family: var(--heading-font);
+    color: #8A4FFF;
 }
 
 footer {
