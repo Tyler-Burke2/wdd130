@@ -48,30 +48,42 @@ nav a:hover {
     padding-left: 20px;
 }
 
-#hero {
-    width: 100%;
-}
-
-.images {
-    display: flex;
-    gap: 20px; 
-    justify-content: center; 
-    align-items: center;
-    margin: 20px;
+.heading {
     text-align: center;
-}
-
-.images img {
-    width: 500px;
-    height: 400px;
-    background-color: rgb(232, 232, 232);
-}
-
-.motto {
-    text-align: center;
-    font-size: 40px;
     font-family: var(--heading-font);
-    color: #8A4FFF;
+    color: var(--headline-color-on-white);
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;         /* Use flexbox for layout */
+    align-items: center;   /* Vertically center the items */
+    padding: 20px;
+}
+.container2 {
+    display: flex;         /* Use flexbox for layout */
+    align-items: center;   /* Vertically center the items */
+    padding: 20px;
+}
+.container3 {
+    display: flex;         /* Use flexbox for layout */
+    align-items: center;   /* Vertically center the items */
+    padding: 20px;
+}
+.container4 {
+    display: flex;         /* Use flexbox for layout */
+    align-items: center;   /* Vertically center the items */
+    padding: 20px;
+}
+  
+.image {         /* Set image size */
+    height: auto;          /* Maintain aspect ratio */
+    margin-right: 20px;    /* Add space between image and text */
+}
+  
+.text {
+    font-size: 16px;       /* Adjust text size */
+    color: #333;           /* Set text color */
 }
 
 footer {
