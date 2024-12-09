@@ -56,34 +56,34 @@ nav a:hover {
 }
 
 .container {
-    display: flex;         /* Use flexbox for layout */
-    align-items: center;   /* Vertically center the items */
+    display: flex;         
+    align-items: center;   
     padding: 20px;
 }
 .container2 {
-    display: flex;         /* Use flexbox for layout */
-    align-items: center;   /* Vertically center the items */
+    display: flex;         
+    align-items: center;   
     padding: 20px;
 }
 .container3 {
-    display: flex;         /* Use flexbox for layout */
-    align-items: center;   /* Vertically center the items */
+    display: flex;         
+    align-items: center;   
     padding: 20px;
 }
 .container4 {
-    display: flex;         /* Use flexbox for layout */
-    align-items: center;   /* Vertically center the items */
+    display: flex;        
+    align-items: center;   
     padding: 20px;
 }
   
-.image {         /* Set image size */
-    height: auto;          /* Maintain aspect ratio */
-    margin-right: 20px;    /* Add space between image and text */
+.image {     
+    height: auto;        
+    margin-right: 20px;    
 }
   
 .text {
-    font-size: 16px;       /* Adjust text size */
-    color: #333;           /* Set text color */
+    font-size: 16px;       
+    color: #333;           
 }
 
 footer {
