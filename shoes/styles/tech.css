@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #EFFFFA   ;
+    --secondary-color: #E5ECF4 ;
+    --accent1-color: #C3BEF7;
+    --accent2-color: #8A4FFF;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Josefin Sans";
+    --paragraph-font: "Oswald", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #8A4FFF;  /* headlines on a white background */ 
+    --headline-color-on-color: #EFFFFA; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #8A4FFF; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #EFFFFA; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #8A4FFF  ;
+    --nav-link-color: #EFFFFA;
+    --nav-background-color: #8A4FFF;
+    --nav-hover-link-color: #EFFFFA;
+    --nav-hover-background-color: #E5ECF4;
+}
+
+nav {
+    display: flex;
+    background-color: #EFFFFA;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    align-items: center;
+    font-family: var(--heading-font);
+    justify-content: space-between;
+}
+
+nav a:hover {
+    text-align: center;
+    color: #8A4FFF;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    position: relative;
+    max-width: 800px; /* Adjust based on your desired size */
+    margin: 20px auto;
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Adjust size of the center image */
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+footer {
+    background-color: #EFFFFA;
+    color: #8A4FFF;
+    padding: 25px 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-family: var(--paragraph-font);
+}
+
+main {
+    background-color: #EFFFFA;
+}
